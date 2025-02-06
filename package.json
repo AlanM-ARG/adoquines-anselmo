@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "limpiacss": "purgecss --css \"css/**/*.css\" --content \"**/*.html\" \"js/**/*.js\" --output ./dist/css/"
+    "limpiacss": "purgecss --css \"vendor/fontawesome-free/css/all.min.css\" --content \"*.html\" --output ./dist/css/"
   },
   "author": "",
   "license": "ISC",
