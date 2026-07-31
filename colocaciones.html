@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
 
 <head>
@@ -47,60 +47,37 @@
             <div class="header-body header-body-bottom-border border-top-0">
                 <div class="header-top">
                     <div class="container">
-                        <div class="header-row">
-                            <div class="header-column justify-content-start">
-                                <div class="header-row">
-                                    <ul class="list list-unstyled list-inline mb-0">
-                                        <!-- TODO colocar telefono 1 -->
-                                        <li class="list-inline-item text-color-dark me-md-4 mb-0">
-                                            <i
-                                                class="icons icon-phone text-color-primary text-4 position-relative top-2 me-1"></i>
-                                            <a href="tel:1170046534"
-                                                class="text-color-dark text-color-hover-primary text-decoration-none">
-                                                <strong>
-                                                    1170046534
-                                                </strong>
+                        <div class="header-row w-100">
+                            <div class="header-column w-100">
+                                <div class="header-row w-100">
+                                    <ul class="list list-unstyled d-flex justify-content-center justify-content-md-between align-items-center w-100 mb-0 flex-wrap flex-md-nowrap gap-3 gap-md-0 text-center text-md-start">
+                                        <!-- Telefono 1 -->
+                                        <li class="mb-0">
+                                            <i class="icons icon-phone text-color-primary text-4 position-relative top-2 me-1"></i>
+                                            <a href="tel:1170046534" class="text-color-dark text-color-hover-primary text-decoration-none font-weight-bold">
+                                                1170046534
                                             </a>
                                         </li>
-                                        <!-- TODO colocar telefono 2 -->
-                                         <li class="list-inline-item text-color-dark me-md-4 mb-0">
-                                            <i
-                                                class="icons icon-phone text-color-primary text-4 position-relative top-2 me-1"></i>
-                                            <a href="tel:1135517563"
-                                                class="text-color-dark text-color-hover-primary text-decoration-none">
-                                                <strong>
-                                                    1135517563
-                                                </strong>
+                                        <!-- Telefono 2 -->
+                                         <li class="mb-0">
+                                            <i class="icons icon-phone text-color-primary text-4 position-relative top-2 me-1"></i>
+                                            <a href="tel:1135517563" class="text-color-dark text-color-hover-primary text-decoration-none font-weight-bold">
+                                                1135517563
                                             </a>
                                         </li>
-                                        <!-- TODO colocar correo -->
-                                        <li class="list-inline-item text-color-dark me-4 mb-0 d-none d-md-inline-block">
-                                            <i
-                                                class="icons icon-envelope text-color-primary text-4 position-relative top-4 me-1"></i>
-                                            <a href="mailto:maximoponce198@gmail.com"
-                                                class="text-color-dark text-color-hover-primary text-decoration-none text-2">
+                                        <!-- Correo (hidden on mobile) -->
+                                        <li class="mb-0 d-none d-md-block">
+                                            <i class="icons icon-envelope text-color-primary text-4 position-relative top-2 me-1"></i>
+                                            <a href="mailto:maximoponce198@gmail.com" class="text-color-dark text-color-hover-primary text-decoration-none">
                                                 maximoponce198@gmail.com
                                             </a>
                                         </li>
-
-                                        <li
-                                            class="list-inline-item text-color-dark text-2 mb-0 d-none d-lg-inline-block">
-                                            <i
-                                                class="icons icon-map text-color-primary text-3-5 position-relative top-1 me-1"></i>
+                                        <!-- Ubicación (hidden on mobile) -->
+                                        <li class="mb-0 d-none d-md-block text-color-dark">
+                                            <i class="icons icon-map text-color-primary text-3-5 position-relative top-1 me-1"></i>
                                             Buenos Aires, Argentina
                                         </li>
                                     </ul>
-                                </div>
-                            </div>
-                            <!-- TODO modificar Pag Contacto -->
-                            <div class="header-column justify-content-end">
-                                <div class="header-row">
-
-                                    <a href="https://wa.me/5491135517563"
-                                        class="btn btn-primary btn-px-4 py-3 font-weight-bold text-3-5 rounded-0 ms-lg-4"
-                                        style="background: #353535;">
-                                        Solicitar Presupuesto
-                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -112,8 +89,7 @@
                             <div class="header-row">
                                 <div class="header-logo">
                                     <a href="index.html">
-                                        <img src="img/logo.webp" width="180" class="img-fluid m-0"
-                                            alt="Adoquines Anselmo">
+                                        <img src="img/logo.webp" class="img-fluid m-0" alt="Adoquines Anselmo" style="max-height: 50px; width: auto;">
                                     </a>
                                 </div>
                             </div>
@@ -126,7 +102,7 @@
                                         <nav class="collapse">
                                             <ul class="nav nav-pills" id="mainNav">
                                                 <li>
-                                                    <a href="index.html" class="nav-link text-3">
+                                                    <a href="#" class="nav-link active text-3">
                                                         INICIO
                                                     </a>
                                                 </li>
@@ -136,7 +112,7 @@
                                                     </a>
                                                 </li> -->
                                                 <li>
-                                                    <a href="#" class="nav-link active text-3">
+                                                    <a href="colocaciones.html" class="nav-link text-3">
                                                         COLOCACIONES
                                                     </a>
                                                 </li>
@@ -146,7 +122,22 @@
                                                         CONTACTO
                                                     </a>
                                                 </li>
-                                            </ul>
+                                                <li class="d-flex align-items-center ms-lg-3 mt-3 mt-lg-0">
+                            <!-- TODO modificar Pag Contacto -->
+                            <div class="header-column justify-content-end">
+                                <div class="header-row">
+
+                                    <a href="https://wa.me/5491135517563"
+                                        class="btn btn-custom-dark font-weight-bold text-3-5 px-4 py-3 rounded-0 ms-lg-4">
+                                        Solicitar Presupuesto
+                                    </a>
+                                </div>
+                            </div>
+
+                                                </li>
+                                            
+                                                
+</ul>
                                         </nav>
                                     </div>
                                 </div>
@@ -163,8 +154,8 @@
 
         <div role="main" class="main" style="background-color: #ffffff">
 
-            <section class="page-header page-header-modern page-header-lg overlay overlay-show overlay-op-9 m-0"
-                style="background-image: url(img/products/photo-ground-texture-pattern.jpg); background-size: cover; background-position: center;">
+            <section class="page-header page-header-modern page-header-lg m-0"
+                style="background-image: url(img/nuevas/colocacion.jpg); background-size: cover; background-position: center;">
                 <div class="container py-4">
                     <div class="row">
                         <div class="col text-center">
@@ -322,10 +313,7 @@
                             </div>
                         </div>
                         <div class="col-xl-3 text-center text-xl-end">
-                            <a href="https://wa.me/5491135517563" data-hash="" data-hash-offset="0"
-                                data-hash-offset-lg="100"
-                                class="btn btn-dark font-weight-bold text-3-5 btn-px-5 btn-py-3 appear-animation"
-                                data-appear-animation="fadeInRightShorterPlus" data-appear-animation-delay="200">
+                            <a href="https://wa.me/5491135517563" class="btn btn-custom-dark font-weight-bold text-3-5 px-4 py-3 rounded appear-animation" data-appear-animation="fadeInRightShorterPlus" data-appear-animation-delay="200">
                                 <!-- TODO colocar texto -->
                                 Solicitar Presupuesto
                                 <!-- INICIAR CONSULTA -->

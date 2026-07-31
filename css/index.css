@@ -13496,3 +13496,140 @@ screen and (max-height:300px) {
 .icon-social-youtube:before {
     content: "\e008"
 }
+/* Custom CTA Button Styles for CRO */
+.btn-cta-cro {
+    background-color: #B22222 !important;
+    color: #ffffff !important;
+    padding: 14px 32px !important;
+    border: none !important;
+    border-radius: 6px !important;
+    box-shadow: 0 5px 15px rgba(178, 34, 34, 0.4) !important;
+    transition: all 0.3s ease !important;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 1.1rem !important;
+}
+
+.btn-cta-cro:hover {
+    background-color: #8B1A1A !important;
+    transform: translateY(-2px) !important;
+    box-shadow: 0 8px 20px rgba(178, 34, 34, 0.6) !important;
+    color: #ffffff !important;
+}
+
+/* Global Main CTA Button Styles */
+.btn-cta-main {
+    background-color: #353535 !important;
+    color: #ffffff !important;
+    padding: 14px 32px !important;
+    border: none !important;
+    border-radius: 6px !important;
+    transition: all 0.3s ease !important;
+    text-decoration: none !important;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1rem !important;
+}
+
+.btn-cta-main:hover {
+    background-color: #1a1a1a !important;
+    transform: translateY(-2px) !important;
+    color: #ffffff !important;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.3) !important;
+}
+
+/* Unified Dark Custom Button */
+.btn-custom-dark {
+    background-color: #353535 !important;
+    color: #ffffff !important;
+    border-radius: 6px !important;
+    border: none !important;
+    text-decoration: none !important;
+    transition: background-color 0.3s ease !important;
+}
+
+.btn-custom-dark:hover {
+    background-color: #454545 !important;
+    color: #ffffff !important;
+}
+
+/* Elegante Botón Rojo */
+.btn-custom-red {
+    background-color: #c9302c !important;
+    color: #ffffff !important;
+    border: none !important;
+    border-radius: 6px !important;
+    text-decoration: none !important;
+    transition: background-color 0.3s ease !important;
+}
+
+.btn-custom-red:hover {
+    background-color: #ac2925 !important;
+    color: #ffffff !important;
+}
+
+/* ESTILOS OBLIGATORIOS PARA BOTONES */
+.btn-custom-dark {
+    background-color: #353535 !important;
+    color: #ffffff !important;
+    border: none !important;
+    border-radius: 6px !important;
+    box-shadow: none !important;
+    transition: background-color 0.3s ease !important;
+    text-decoration: none !important;
+}
+
+.btn-custom-dark:hover {
+    background-color: #454545 !important;
+    color: #ffffff !important;
+}
+
+.btn-custom-red {
+    background-color: #c9302c !important;
+    color: #ffffff !important;
+    border: none !important;
+    border-radius: 6px !important;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.2) !important;
+    transition: background-color 0.3s ease, transform 0.3s ease !important;
+    text-decoration: none !important;
+}
+
+.btn-custom-red:hover {
+    background-color: #ac2925 !important;
+    transform: translateY(-2px) !important;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.3) !important;
+    color: #ffffff !important;
+}
+
+/* Correccion Bug Visual WhatsApp Flotante */
+.whatsapp-float, 
+.whatsapp-float a, 
+.whatsapp-float img {
+    border-radius: 50% !important;
+    background-color: transparent !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+    outline: none !important;
+}
+
+.whatsapp-float::before, 
+.whatsapp-float::after,
+.whatsapp-float a::before,
+.whatsapp-float a::after {
+    display: none !important;
+    content: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+}
+
+/* Ocultar botón Scroll To Top que interfiere con WhatsApp */
+.scroll-to-top {
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+    pointer-events: none !important;
+    z-index: -9999 !important;
+}
