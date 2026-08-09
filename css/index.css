@@ -723,22 +723,22 @@ progress {
 
 @media (max-width: 767px) {
     #slide0{
-        background-image: url('/img/nuevas/colocacion.jpg') !important;
+        background-image: url('/img/nuevas/colocacion.webp') !important;
         background-size: cover;
         background-position: center;
     }
    #slide1 {
-        background-image: url('/img/products/porfido-mixto-colocacion-6.jpg') !important;
+        background-image: url('/img/products/porfido-mixto-colocacion-6.webp') !important;
         background-size: cover;
         background-position: center;
     }
     #slide2 {
-        background-image: url('/img/products/cortado-a-disco-porfido-mixto-colocacion-5.jpg') !important;
+        background-image: url('/img/products/cortado-a-disco-porfido-mixto-colocacion-5.webp') !important;
         background-size: cover;
         background-position: center;
     }
     #slide3 {
-        background-image: url('/img/products/baldosa-porfido.mixto-colocacion-4.jpeg') !important;
+        background-image: url('/img/products/baldosa-porfido.mixto-colocacion-4.webp') !important;
         background-size: cover;
         background-position: center;
     }
@@ -760,23 +760,23 @@ progress {
         max-width: 720px
     }
     #slide0{
-        background-image: url(/img/products/porfido-mixto-colocacion-1.jpg) !important;
+        background-image: url(/img/products/porfido-mixto-colocacion-1.webp) !important;
         
         background-size: cover;
         background-position: center;
     }
     #slide1 {
-        background-image: url('/img/products/baldosa-porfido.mixto-colocacion-4.jpeg') !important;
+        background-image: url('/img/products/baldosa-porfido.mixto-colocacion-4.webp') !important;
         background-size: cover;
         background-position: center;
     }
     #slide2 {
-        background-image: url('/img/products/cortado-a-disco-porfido-mixto-colocacion-4.jpeg') !important;
+        background-image: url('/img/products/cortado-a-disco-porfido-mixto-colocacion-4.webp') !important;
         background-size: cover;
         background-position: center;
     }
     #slide3 {
-        background-image: url(/img/products/cortado-a-disco-porfido-mixto-colocacion-2.jpg) !important;
+        background-image: url(/img/products/cortado-a-disco-porfido-mixto-colocacion-2.webp) !important;
         background-size: cover;
         background-position: center;
     }
